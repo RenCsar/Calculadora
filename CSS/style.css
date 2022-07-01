@@ -75,6 +75,14 @@ button:active {
   background-color: var(--color-azul);
 }
 
+#igual:hover {
+  background-color: rgb(43, 95, 111);
+}
+
+#igual:active {
+  background-color: rgb(87, 175, 202);
+}
+
 .cinza-escuro {
   background-color: var(--color-cinza-escuro);
 }

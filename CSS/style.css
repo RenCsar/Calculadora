@@ -55,12 +55,13 @@ button {
   border: 1px solid var(--color-cinza);
   border-radius: var(--border-radius);
   font-size: 18px;
-  transition: 1s all;
+  transition: .5s all;
   cursor: pointer;
 }
 
 button:hover {
   background-color: rgb(198, 197, 197);
+  color: white;
   transform: scale(1.1);
 }
 

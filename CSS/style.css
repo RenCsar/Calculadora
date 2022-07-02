@@ -46,22 +46,17 @@ body {
   margin: 0px 10px 5px 0px;
 }
 
-.resolucao-container .previa {
-  background-color: violet;
-  color: gray;
-  font-size: 18px;
-  min-height: 1.6em;
+.resolucao-container .previa, .resolucao-container .corrente{
   width: 395px;
+  min-height: 1.6em;
   overflow-wrap: break-word;
-  text-align: end;
-  margin-bottom: 15px;
+  text-align: end;  
 }
 
-.resolucao-container .corrente {
-  min-height: 1.6em;
-  width: 395px;
-  overflow-wrap: break-word;
-  text-align: end;
+.resolucao-container .previa {
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 15px;
 }
 
 .botoes-container{

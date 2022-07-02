@@ -31,15 +31,37 @@ body {
 }
 
 .resolucao-container {
+  background-color: aqua;
   height: 18%;
+  width: 400px;
   display: flex;
+  flex-direction: column;
   justify-content: end;
   align-items: flex-end;
   font-size: 22px;
+  overflow-wrap: break-word;
 }
 
 .resolucao-container p {
   margin: 0px 10px 5px 0px;
+}
+
+.resolucao-container .previa {
+  background-color: violet;
+  color: gray;
+  font-size: 18px;
+  min-height: 1.6em;
+  width: 395px;
+  overflow-wrap: break-word;
+  text-align: end;
+  margin-bottom: 15px;
+}
+
+.resolucao-container .corrente {
+  min-height: 1.6em;
+  width: 395px;
+  overflow-wrap: break-word;
+  text-align: end;
 }
 
 .botoes-container{

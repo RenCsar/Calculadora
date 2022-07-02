@@ -84,17 +84,17 @@ button:active {
   background-color: rgb(122, 120, 120);
 }
 
-#igual {
+button:last-child {
   width: 200%;
   grid-area: 5/ 3/ 6/ 4;
   background-color: var(--color-azul);
 }
 
-#igual:hover {
+button:last-child:hover {
   background-color: rgb(43, 95, 111);
 }
 
-#igual:active {
+button:last-child:active {
   background-color: rgb(87, 175, 202);
 }
 

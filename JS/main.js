@@ -4,7 +4,8 @@ const buttons = document.querySelectorAll("#botoes-container button");
 
 
 buttons.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    console.log('Clicou');
+  btn.addEventListener("click", (e) => {
+    const value = e.target.innerText;
+    console.log(value);
   })
 });

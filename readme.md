@@ -1,6 +1,6 @@
 <h1 align="center">Calculadora</h1>
 
-<p align="center">Calculadora de operações básicas.</p>
+<p align="center">Calculadora de operações básicas com números naturais.</p>
 
 <p align="center">
  <a href="#Descrição">Descrição</a> •
@@ -15,8 +15,8 @@
 
 <h1 align="center">  
   <p align="center">
-  <img width="800" height="450" src="./Assents/Calculadora.png"><br><br>
-  <img width="800" height="450" src="./Assents/Calc.gif"><br><br>
+  <img width="400" height="450" src="./Assents/Calculadora.png"><br><br>
+  <img width="400" height="450" src="./Assents/Calc.gif"><br><br>
 </p>
 
 </h1>

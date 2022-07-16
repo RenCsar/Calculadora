@@ -37,7 +37,7 @@ body {
   flex-direction: column;
   justify-content: end;
   align-items: flex-end;
-  font-size: 22px;
+  font-size: 32px;
   overflow-wrap: break-word;
 }
 
@@ -54,7 +54,7 @@ body {
 
 .resolucao-container .previa {
   color: gray;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .botoes-container{

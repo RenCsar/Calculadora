@@ -26,7 +26,7 @@ class calculator {
   processOperation(operation) {
     
     //Checar se o corrente está vazio
-    if(this.corrente.innerText === ""){
+    if(this.corrente.innerText === "" && operation !== "C"){
       //Mudar Operação
       if(this.previa.innerText !== ""){
         this.changeOperation(operation);
@@ -58,7 +58,19 @@ class calculator {
       case "*": 
         operationValue = previous * current
         this.updateScreen(operationValue, operation, current, previous);
+        break;
+      case "DEL": 
+        this.processDelOperator();
+        break;
+      case "CE": 
+        this.processClearCurrentOperation();
         break;  
+      case "C": 
+        this.processClearOperation();
+        break; 
+      case "=": 
+        this.processEqualOperator();
+        break;   
       default:
         return;  
     }
@@ -98,6 +110,28 @@ class calculator {
 
     this.previa.innerText = this.previa.innerText.slice(0, -1) + operation 
   };
+
+  //Deletar o último dígito "DEL"
+  processDelOperator() {
+    this.corrente.innerText = this.corrente.innerText.slice(0, -1);
+  }
+
+  //Limpar a tela corrente "CE"
+  processClearCurrentOperation() {
+    this.corrente.innerText = "";
+  }
+
+  //Limpa todas as operações "C"
+  processClearOperation() {
+    this.corrente.innerText = "";
+    this.previa.innerText = "";
+  }
+
+  //Processar uma operação "="
+  processEqualOperator() {
+    const operation = previa.innerText.split(" ") [1];
+    this.processOperation(operation);
+  }
 
 }
 

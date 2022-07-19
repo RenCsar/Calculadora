@@ -15,8 +15,8 @@
 
 <h1 align="center">  
   <p align="center">
-  <img width="400" height="450" src="./Assents/Calculadora.png"><br><br>
-  <img width="400" height="450" src="./Assents/Calc.gif"><br><br>
+  <img width="350" height="450" src="./Assents/Calculadora.png"><br><br>
+  <img width="350" height="450" src="./Assents/Calc.gif"><br><br>
 </p>
 
 </h1>
